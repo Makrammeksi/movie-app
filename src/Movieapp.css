@@ -1,0 +1,17 @@
+
+.Movie{
+    width: 197.833px;
+    height: 300px; 
+    border: 2px solid red;
+}
+
+
+.MovieTitle{
+    width: 197.833px;
+    height: 300px; 
+}
+
+.SeeOpenning{
+    height: 20px;
+    width: 50px;
+}

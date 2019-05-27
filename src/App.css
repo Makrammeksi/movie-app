@@ -1,11 +1,50 @@
 .App {
   text-align: center;
+  /* display: flex; */
+  justify-content: center;
 }
-
+.buttonSearch{
+  border: 2px solid rgb(199, 192, 192);
+  padding: 141px;
+  width: 18%;
+  display: -webkit-inline-box;
+  justify-content: center;
+}
+.btn-danger{
+  background-color: rgb(255, 137, 137) ;
+  color: black;
+}
+.AjoutFilm{
+  display: flex;
+  flex-direction: column;
+}
+.Ajoutfilm{
+  height: 150px;
+}
+.Movieitem{
+  padding: 20px !important;
+  border: 2px solid grey ;
+}
+.Movie{
+  display: flex;
+  /* height: 475px;
+  width: 300px; */
+}
+.rating{
+  display: flex;
+  flex-direction: column;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+.champ{
+  margin-top:20px; 
+}
+.searchinput{
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .App-header {
